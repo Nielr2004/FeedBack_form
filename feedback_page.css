@@ -1,0 +1,85 @@
+form {
+  width: 355px;
+  margin: 0 auto;
+  background-color: rgba(149, 148, 148, 0.8);
+  backdrop-filter: blur(0.5px);
+  padding: 59px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+  color: rgb(33, 32, 32);
+  font-style: bold;
+  align-self: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #7a7a7a;
+  border-radius: 10px;
+}
+
+
+textarea {
+  width: 100%;
+  padding: 5px;
+  margin-top: 5px;
+  color: rgb(0, 0, 0);
+  border-radius: 10px;
+}
+
+input[type="submit"] {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: rgb(255, 255, 255);
+  border: none;
+  cursor: pointer;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+
+input[type="submit"]:hover {
+  background-color: #426643;
+}
+
+body {
+  background-color: rgb(48, 48, 48)
+}
+
+h1 {
+  text-align: center;
+  font: bold 40px Helvetica, Sans-Serif;
+  color: rgb(255, 255, 255)
+}
+
+.left-image {
+  position: absolute;
+  top: 10px;
+  left: 500px;
+  max-width: 277px;
+  height: 383px;
+  transform: scaleX(-1);
+
+}
+
+.right-image {
+  position: absolute;
+  top: 10px;
+  right:  500px;
+  max-width: 277px;
+  height: 383px;
+}
+
+footer {
+  text-align: center;
+  font: bold 20px Helvetica, Sans-Serif;
+  padding: 20px;
+  color: rgb(255, 255, 255)
+  
+}
